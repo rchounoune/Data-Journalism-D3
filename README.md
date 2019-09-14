@@ -3,15 +3,13 @@ An Exploration of Public Data Visualization with D3.js
 
 ![screenshot](https://github.com/rchounoune/Data-Journalism-D3/blob/master/images/screenshot.png)
 
-### Description
-This project uses D3.js to visualize some state-level data about population health based on 2014 U.S. Census data.  It similates an on-line newpaper article with an interactive visualization.  Three risk factors (obesity, smoking, and uninsurance rates) are plotted against three perhaps underlying factors (income, poverty rate, and age).
+### Background
 
-### File Structure
-- The base webpage template is index.html.
-- The assets folder contains everything else of relevance
-- assets/css holds two styling files, styles.css and d3style.css
-- assets/data holds the data set in data.csv
-- assets/js holds .eslintrc.json and app.js, the latter of which runs the javascript code that contains the visualization
+This project uses a combination of HTML, Javascript and D3 to analyze the current trends shaping people's lives.  The trends include obesity, smoking, and uninsurance rates and they are plotted against income, poverty rate, and age. We use charts, graphs, and interactive elements to help readers understand your findings.
 
-### Running
-Due to loading in a csv file, many browsers will fail to load this unless run on an http server.  This project was developed with the `python -m http.server` method.
+The data set included with the assignment is based on 2014 ACS 1-year estimates: https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml, but you are free to investigate a different data set. The current data set incldes data on rates of income, obesity, poverty, etc. by state. MOE stands for "margin of error."
+ 
+### Observations
+There is  a positive correlation between poverty levels and levels of unisured individuals. We see similar correlations with obesity and smoking levels. Conversely, we see negative correlations between all three outcomes and median household income. This tracks with the poverty correlations, as in general, we expect the poverty percentage to decrease as median household income increases.
+
+With median age, there are less obvious correlations between median age and the uninsured percentage of the population. This might be due to the presence of Medicare for older individuals.

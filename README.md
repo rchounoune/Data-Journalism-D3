@@ -1,4 +1,4 @@
-# D3-Data-Journalism
+#Data-Journalism
 An Exploration of Public Data Visualization with D3.js
 
 ![screenshot](https://github.com/rchounoune/Data-Journalism-D3/blob/master/images/screenshot.png)
